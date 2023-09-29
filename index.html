@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="./Dictionary.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="dad">
+
+        <nav class="navbar">
+    
+            <h1>Dictionary</h1>
+    
+        </nav>
+
+        <div class="last-search"></div>
+
+        <div class="searchbar">
+    
+            <input type="text" id = "search-input" name="searchbar" aria-label="Search Word Here..." placeholder="Search Word Here...""
+            class=" search-area">
+            <button class="submit" onclick="fetchData()">Search</button>
+    
+        </div>
+    
+        <div class="suggestionList">
+            <div id="suggestionList" style="display: none"></div>
+        </div>
+
+        <div class="result-box">
+              
+        </div>
+    </div>
+</body>
+<script src="./Dictionary.js"></script>
+</html>
